@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>לוח שנה חודשי</h1>
+    <div id="calendar">
+        <div class="calendar-header">
+            <button onclick="prevMonth()">חודש קודם</button>
+            <span id="month-year"></span>
+            <button onclick="nextMonth()">חודש הבא</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>א'</th>
+                    <th>ב'</th>
+                    <th>ג'</th>
+                    <th>ד'</th>
+                    <th>ה'</th>
+                    <th>ו'</th>
+                    <th>ש'</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

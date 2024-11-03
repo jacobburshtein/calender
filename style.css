@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: center;
+  }
+  #calendar {
+    display: inline-block;
+    width: 300px;
+  }
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  .today {
+    background-color: rgb(89, 0, 255);
+  }
+  .event {
+    background-color: #ffd700;
+  }
+  .today.event {
+    background-color: rgb(255, 165, 0);
+  }
